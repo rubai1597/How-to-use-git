@@ -161,7 +161,9 @@ README.md 파일을 새로 만들었기 때문에 위와 같이 뜨게 된다. �
 > git push origin master
 
 기본적으로는 master를 통해 commit 하지만 branch와 같은 다른 형태로 push를 진행할 수 있다. 이 내용은 이후에 다루도록 하자.
+> \> git push -u <repository 이름> master
 
+를 쓰기도 하는데 -u의 옵션은 config에서 설정된 master branch를 origin의 master branch로 연결해주는 역할을 한다.
 이제 github으로 이동하게 되면 다음과 같이 README.md 파일이 업로드된 것을 확인할 수 있다.
 
 ![github 02](https://user-images.githubusercontent.com/42333563/50556294-99abe180-0d1a-11e9-94c4-26d884b64bdb.JPG)
