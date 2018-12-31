@@ -164,8 +164,12 @@ README.md 파일을 새로 만들었기 때문에 위와 같이 뜨게 된다. �
 
 이제 github으로 이동하게 되면 다음과 같이 README.md 파일이 업로드 된 것을 확인할 수 있다.
 
-![1546240232374](C:\Users\jjhhj\AppData\Roaming\Typora\typora-user-images\1546240232374.png)
+![github 02](C:\Users\jjhhj\Desktop\github 02.JPG)
 
 ### 3.3 수정된 내용 Update
 
-만약에 github에서 누군가 내용을 수정했다면 local repository에서는 반영되지 않기 때문에 수정된 내용을 update 해줘야할 필요가 있다. Github에서 임의로 README.md 파일을 수정하여 
+만약에 github에서 누군가 내용을 수정했다면 local repository에서는 반영되지 않기 때문에 수정된 내용을 update 해줘야할 필요가 있다. Github에서 임의로 README.md 파일을 수정하여 local과 다른 내용을 갖도록 하자. repository에 있는 파일들의 크기가 작은 경우에는 clone을 사용해도 되지만 project의 size가 커지는 경우에는 수정된 파일만을 변경하는 것이 효율적이기 때문에 'git pull'을 사용한다.
+
+> \> git pull <repository 이름> master
+
+명령어를 입력하면 어떤 파일이 얼마나 수정되었는 지를 확인할 수 있다.
