@@ -1,16 +1,16 @@
 # 간단한 git 사용법
 
-* [여기](https://medium.com/@psychet_learn)와 [여기](https://rogerdudler.github.io/git-guide/index.ko.html)를 참고하였습니다.
+* [여기](https://medium.com/@psychet_learn)와 [여기](https://rogerdudler.github.io/git-guide/index.ko.html)를 참고.
 
 
 
 ## 1. Set up for Git
 
-Git은 software이기 때문에 자신의 운영체제에 맞는 Git을 설치해야한다.
+Git은 software이기 때문에 자신의 운영체제에 맞는 Git을 설치해야 한다.
 
 ### 1.1 For Windows
 
-Windows에서 git을 사용하기 위해서는 [Git 공식홈페이지](https://git-scm.com/downloads)에서 다운로드 받는 것이 가장 좋다. 설치가 완료되면 Git Bash(or cmd)를 통해 여러가지 git 명령어를 입력할 수 있다.
+Windows에서 git을 사용하기 위해서는 [Git 공식 홈페이지](https://git-scm.com/downloads)에서 다운로드하는 것이 가장 좋다. 설치가 완료되면 Git Bash(or cmd)를 통해 여러 가지 git 명령어를 입력할 수 있다.
 
 ### 1.2 For Ubuntu
 
@@ -44,15 +44,15 @@ Git repository는 remote repository와 local repository로 나뉜다. remote rep
 
 ### 2.1 Git 초기화 하기
 
-Git을 사용하기 위해서는 반드시 초기화를 해줘야한다. 초기화는 다음 명령어를 통해 간단히 시켜줄 수 있다.
+Git을 사용하기 위해서는 반드시 초기화를 해줘야 한다. 초기화는 다음 명령어를 통해 간단히 시켜줄 수 있다.
 
 > \> git init
 
-이 명령어를 입력하고 나면 현재 directory에 .git이라는 폴더가 생성되는데 여기에는 Git에 대한 여러가지 정보가 담겨져있다.
+이 명령어를 입력하고 나면 현재 directory에 .git이라는 폴더가 생성되는데 여기에는 Git에 대한 여러 가지 정보가 담겨있다.
 
 ### 2.2 Git 계정 설정
 
-이제 사용자 설정을 하여 git에 접근이 가능하도록 해야한다. 다음 명령어를 통해 사용자를 설정해준다. user.email에는 자신이 가입했던 github의 이메일을 사용한다.
+이제 사용자 설정을 하여 git에 접근이 가능하도록 해야 한다. 다음 명령어를 통해 사용자를 설정해준다. user.email에는 자신이 가입했던 github의 이메일을 사용한다.
 
 > \> git config user.name <사용자 이름>
 >
@@ -80,11 +80,11 @@ git clone을 하게 되면 repository에 있던 파일들이 현재 directory에
 
 ### 3.1 Repository URL설정
 
-local repository에서 수정된 내용을 remote로 update하기 위해서는 repository의 URL을 설정해줘야한다.
+local repository에서 수정된 내용을 remote로 update 하기 위해서는 repository의 URL을 설정해줘야 한다.
 
 > \> git remote -v
 
-git remote -v 명령어를 현재 설정되어 있는 repository의 URL을 나타낸다. 설정되어 있는 repository가 없다면 "not a git repository (or any of the parent directories)" 라고 error가 발생할 것이다.
+git remote -v 명령어를 현재 설정되어 있는 repository의 URL을 나타낸다. 설정되어 있는 repository가 없다면 "not a git repository (or any of the parent directories)"라고 error가 발생할 것이다.
 
 만약 설정된 repository가 없다면 다음의 명령어를 통해 remote repository를 추가시켜준다.
 
@@ -119,20 +119,20 @@ local repository에서 내용이 수정되었는지 기억이 나지 않는다�
 
 git status 명령어를 local과 remote에 있는 내용이 얼마나 다른지를 알려주는 명령어이다. 아직까지는 수정한 내용이 없기 때문에 "No Commits yet"이라고만 나올 것이다.
 
-이제 local repository에서 내용을 수정해보자. Github의 project에 들어가보면 가장 먼저 표시되는 것이 README.md 파일이다. 물론 없는 경우도 있지만 대부분의 경우에 REAME.md 파일에 이 project가 어떤 목적을 가지고 있는 지에 대한 내용들이 포함되어 있다. Windows 운영체제에서는 *.md 형식의 파일을 기본적으로 지원해주지 않기 때문에 이를 수정하기 위해서는 추가적인 software가 필요하다. [Typora](https://typora.io/)와 같은 프로그램을 사용하여 수정하도록 하자. (Ubuntu에서는 기본적으로 editor가 설치되어 있기 때문에 추가적인 프로그램은 필요없다.) 프로그램을 설치하지 않더라도 1 ~ 2 줄의 간단한 *.md 파일은 생성할 수 있다.
+이제 local repository에서 내용을 수정해보자. Github의 project에 들어가 보면 가장 먼저 표시되는 것이 README.md 파일이다. 물론 없는 경우도 있지만 대부분의 경우에 REAME.md 파일에 이 project가 어떤 목적을 가지고 있는지에 대한 내용들이 포함되어 있다. Windows 운영체제에서는 *.md 형식의 파일을 기본적으로 지원해주지 않기 때문에 이를 수정하기 위해서는 추가적인 software가 필요하다. [Typora](https://typora.io/)와 같은 프로그램을 사용하여 수정하도록 하자. (Ubuntu에서는 기본적으로 editor가 설치되어 있기 때문에 추가적인 프로그램은 필요 없다.) 프로그램을 설치하지 않더라도 1 ~ 2 줄의 간단한 *.md 파일은 생성할 수 있다.
 
 > \> echo "TEST" >> README.md
 
 위 명령어를 입력하면 README.md 파일이 생성되고 그 안에 "TEST"라고 입력된다.
 
-위 두가지 방법 중 하나를 사용하여 파일을 생성하게 되면 remote에 원래 존재하지 않던 파일이 생성되었기 때문에 'git status' 명령어를 입력하면 
+위 두 가지 방법 중 하나를 사용하여 파일을 생성하게 되면 remote에 원래 존재하지 않던 파일이 생성되었기 때문에 'git status' 명령어를 입력하면 
 
 > No commits yet
 > Untracked files:
 > ​	(use "git add ..." to include in what will be committed)
 > ​			README.md
 
-README.md 파일을 새로 만들었기 때문에 위와 같이 뜨게 된다. 이것을 repository에 update하기 위해서는 추가적인 명령어를 입력해주어야 한다. 우선 이 과정을 거치기 전에 repository의 내용을 살펴보자.
+README.md 파일을 새로 만들었기 때문에 위와 같이 뜨게 된다. 이것을 repository에 update 하기 위해서는 추가적인 명령어를 입력해주어야 한다. 우선 이 과정을 거치기 전에 repository의 내용을 살펴보자.
 
 ![github 01](C:\Users\jjhhj\Desktop\github 01.jpg)
 
@@ -160,16 +160,16 @@ README.md 파일을 새로 만들었기 때문에 위와 같이 뜨게 된다. �
 >
 > git push origin master
 
-기본적으로는 master를 통해 commit하지만 branch와 같은 다른 형태로 push를 진행할 수 있다. 이 내용은 이후에 다루도록 하자.
+기본적으로는 master를 통해 commit 하지만 branch와 같은 다른 형태로 push를 진행할 수 있다. 이 내용은 이후에 다루도록 하자.
 
-이제 github으로 이동하게 되면 다음과 같이 README.md 파일이 업로드 된 것을 확인할 수 있다.
+이제 github으로 이동하게 되면 다음과 같이 README.md 파일이 업로드된 것을 확인할 수 있다.
 
 ![github 02](C:\Users\jjhhj\Desktop\github 02.JPG)
 
 ### 3.3 수정된 내용 Update
 
-만약에 github에서 누군가 내용을 수정했다면 local repository에서는 반영되지 않기 때문에 수정된 내용을 update 해줘야할 필요가 있다. Github에서 임의로 README.md 파일을 수정하여 local과 다른 내용을 갖도록 하자. repository에 있는 파일들의 크기가 작은 경우에는 clone을 사용해도 되지만 project의 size가 커지는 경우에는 수정된 파일만을 변경하는 것이 효율적이기 때문에 'git pull'을 사용한다.
+만약에 github에서 누군가 내용을 수정했다면 local repository에서는 반영되지 않기 때문에 수정된 내용을 update 해줘야 할 필요가 있다. Github에서 임의로 README.md 파일을 수정하여 local과 다른 내용을 갖도록 하자. repository에 있는 파일들의 크기가 작은 경우에는 clone을 사용해도 되지만 project의 size가 커지는 경우에는 수정된 파일만을 변경하는 것이 효율적이기 때문에 'git pull'을 사용한다.
 
 > \> git pull <repository 이름> master
 
-명령어를 입력하면 어떤 파일이 얼마나 수정되었는 지를 확인할 수 있다.
+명령어를 입력하면 어떤 파일이 얼마나 수정되었는지를 확인할 수 있다.
