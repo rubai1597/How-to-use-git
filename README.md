@@ -134,7 +134,7 @@ git status 명령어를 local과 remote에 있는 내용이 얼마나 다른지�
 
 README.md 파일을 새로 만들었기 때문에 위와 같이 뜨게 된다. 이것을 repository에 update하기 위해서는 추가적인 명령어를 입력해주어야 한다. 우선 이 과정을 거치기 전에 repository의 내용을 살펴보자.
 
-![github 01](C:\Users\jjhhj\Desktop\github 01.jpg)
+![github 01](https://user-images.githubusercontent.com/42333563/50556123-5d778180-0d18-11e9-8709-41ee3a98bb38.jpg)
 
 빈 repository의 경우 github에서는 위와 같이 표시될 것이다. 이 빈 공간에 README.md 파일을 추가하기 위해 'git add'와 'git commit'의 명령어를 입력해줘야 한다.
 
