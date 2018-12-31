@@ -164,7 +164,7 @@ README.md 파일을 새로 만들었기 때문에 위와 같이 뜨게 된다. �
 
 이제 github으로 이동하게 되면 다음과 같이 README.md 파일이 업로드 된 것을 확인할 수 있다.
 
-![github 02](C:\Users\jjhhj\Desktop\github 02.JPG)
+![github 02](https://user-images.githubusercontent.com/42333563/50556132-7d0eaa00-0d18-11e9-9a67-ff610d2285dc.JPG)
 
 ### 3.3 수정된 내용 Update
 
