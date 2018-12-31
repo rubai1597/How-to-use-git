@@ -1,6 +1,6 @@
 # 간단한 git 사용법
 
-* [여기](https://medium.com/@psychet_learn)와 [여기](https://rogerdudler.github.io/git-guide/index.ko.html)를 참고하였습니다.
+* [여기](https://medium.com/@psychet_learn)와 [여기](https://rogerdudler.github.io/git-guide/index.ko.html)를 참고.
 
 
 
